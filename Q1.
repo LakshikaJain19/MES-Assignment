@@ -1,0 +1,7 @@
+MOV A, #100
+MOV B, #11
+MUL AB
+ADD A, #66
+MOV DPL, A
+MOV DPH, B
+    END
